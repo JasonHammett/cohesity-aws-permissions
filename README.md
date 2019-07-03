@@ -14,16 +14,6 @@ The following Cohesity DataPlatform features are covered in this package:
 
 To limit permissions to a minimum, Cohesity uses the ability to attach an inline policy to an IAM user.  Users can also create a managed policy (AWS Console > IAM > Policies) for each of the capabilities listed above.
 
-## Contents
-This package contains the following files:
-
-- cloudarchive_glacier.json
-- cloudarchive_s3.json
-- cloudspin_ondemand.json
-- cloudspin_policy_based_full.json
-- cloudspin_policy_based_incremental.json
-- native_cloud_data_protection.json
-
 ## Create and Assign Managed Policy
 Managed (persistent) policies allow administrators to manage changes to policies in a single place across multiple users, with changing taking effect immediately and automatically.  This is preferred to inline policies which requires administrators to find users that have inline policies, and implement changes manually on an individual user basis.
 
