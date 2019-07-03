@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "glacier:InitiateJob",
+                "glacier:AbortMultipartUpload",
+                "glacier:DescribeVault",
+                "glacier:GetJobOutput",
+                "glacier:ListParts",
+                "glacier:DescribeJob",
+                "glacier:CompleteMultipartUpload",
+                "glacier:InitiateMultipartUpload",
+                "glacier:UploadMultipartPart"
+            ],
+            "Resource": [
+                "arn:aws:glacier:*:*:vaults/*"
+            ]
+        }
+    ]
+}
