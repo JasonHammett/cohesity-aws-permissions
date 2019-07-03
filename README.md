@@ -1,7 +1,7 @@
 # Cohesity AWS Permissions
 
 ## Overview
-This repo contains individual JSON files for Amazon Web Services (AWS) IAM user permissions that are required for specific cloud operations with Cohesity. 
+This repo contains individual JSON files for Amazon Web Services (AWS) IAM user permissions that are required for specific cloud operations with Cohesity.
 
 The following Cohesity DataPlatform features are covered in this package:
 
@@ -52,3 +52,6 @@ To assign an inline policy to an AWS IAM user, do the following:
 9.	Click the Review policy button.
 10.	Enter an appropriate name for the policy in the Name field.
 11.	Click the Create policy button.
+
+## Contributors
+- James White
