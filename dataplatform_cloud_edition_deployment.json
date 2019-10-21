@@ -63,7 +63,8 @@
                 "cloudformation:ValidateTemplate",
                 "cloudformation:CreateStack",
                 "ssm:SendCommand",
-                "ssm:GetCommandInvocation"
+                "ssm:GetCommandInvocation",
+                "rds:DescribeSourceRegions"
             ],
             "Resource": "*"
         }
